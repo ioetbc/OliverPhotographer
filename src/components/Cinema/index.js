@@ -13,7 +13,22 @@ class CinemaMode extends Component {
         }
         this.handleDetails = this.handleDetails.bind(this);
         this.handleNewImage = this.handleNewImage.bind(this);
+        this.handleKeyDown = this.handleKeyDown.bind(this);
     };
+
+    handleKeyDown(event) {
+        if (event.code === 'Escape') {
+            this.props.dismiss();
+        }
+    }
+
+    componentDidMount() {
+        document.addEventListener("keydown", this.handleKeyDown);
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener("keydown", this.handleKeyDown);
+    }
 
     handleDetails() {
         this.setState({
@@ -45,7 +60,7 @@ class CinemaMode extends Component {
                         cursor: 'pointer',
                     }}
                 >
-                    <div className="button-close" onClick={dismiss}></div>
+                    <div className="button-close" onClick={dismiss} />
                     <div style={{ position: 'relative' }}>
                         <img
                             style={{ height: '85vh' }} 
