@@ -1,0 +1,19 @@
+body {
+    color: #3a3a3a;
+    margin: 0;
+    padding: 25px 30px 30px 30px;
+}
+
+::selection {
+    background-color: blue;
+    color: white;
+  }
+
+.homepage-wrapper {
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: '1000px') {
+        justify-content: space-between;
+    }
+    overflow-x: hidden;
+}

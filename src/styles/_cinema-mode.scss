@@ -1,0 +1,73 @@
+.details-modal {
+    color: #3a3a3a;
+    line-height: 23px;
+    list-style: none;
+    font-size: 14px;
+    background: white;
+    border-radius: 3px;
+    width: 35%;
+    padding: 30px;
+    margin: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    cursor: auto;
+
+    .modal-heading {
+        height: 25%;
+        h2 {
+            margin: 0;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        p {
+            margin: 0;
+            margin-top: 4px;
+        }
+    }
+
+    .modal-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 75%;
+        margin: 32px 0;
+
+        .modal-section {
+            display: flex;
+
+            &:last-child {
+                margin-top: 16px;
+            }
+
+            div {
+                width: 100%;
+            }
+    
+            p {
+                margin: 0;
+                font-size: 15px;
+                line-height: 28px;
+                text-transform: uppercase;
+                &:nth-child(odd) {
+                    color: rgba(0, 0, 0, .3);
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+
+    .card-action {
+        p {
+            display: inline-block;
+            margin: 0;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            color: blue;
+
+            &:first-child {
+                margin-right: 30px;
+            }
+        }
+    }
+}

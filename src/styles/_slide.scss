@@ -1,0 +1,30 @@
+.slide {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    .right {
+        opacity: .5;
+        height: 85vh;
+        width: 100px;
+        cursor: pointer;
+        transition: all .1s ease-in;
+
+
+        &:hover {
+            background: black;
+        }
+    }
+    .left {
+        opacity: .5;
+        height: 85vh;
+        width: 100px;
+        cursor: pointer;
+        transition: all .1s ease-in;
+
+        &:hover {
+            background: black;
+        }
+    }
+}
