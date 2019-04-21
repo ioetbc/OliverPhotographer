@@ -68,7 +68,6 @@ class CinemaMode extends Component {
                         justifyContent: 'center',
                         display: 'flex',
                         alignItems: 'center',
-                        cursor: 'pointer',
                     }}
                 >
                     <div className="button-close" onClick={dismiss} />
