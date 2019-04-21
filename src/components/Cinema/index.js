@@ -17,8 +17,19 @@ class CinemaMode extends Component {
     };
 
     handleKeyDown(event) {
-        if (event.code === 'Escape') {
+        console.log(event.code)
+
+        switch(event.code) {
+            case 'Escape':
             this.props.dismiss();
+                break;
+            case 'ArrowRight':
+                this.setState(() => ({ currentImage: this.state.currentImage + 1 }));
+                break;
+            case 'ArrowLeft':
+                this.setState(() => ({ currentImage: this.state.currentImage - 1 }));
+            default:
+                break;
         }
     }
 
@@ -32,7 +43,7 @@ class CinemaMode extends Component {
 
     handleDetails() {
         this.setState({
-            showDetails: !this.state.showDetails, 
+            showDetails: !this.state.showDetails,
         })
     }
 
@@ -63,7 +74,7 @@ class CinemaMode extends Component {
                     <div className="button-close" onClick={dismiss} />
                     <div style={{ position: 'relative' }}>
                         <img
-                            style={{ height: '85vh' }} 
+                            style={{ height: '85vh' }}
                             id={'cinemaImage' + startingImage}
                             src={require(`../../images/optimized/${imagePath[imageNo]}`)}
                         />
@@ -82,7 +93,7 @@ class CinemaMode extends Component {
                         <p style={{ position: 'absolute', left: 0, right: 0, color: '#3a3a3a', textAlign: 'center', marginTop: '10px' }}>{imageNo + 1}</p>
                     </div>
                     {showDetails &&
-                        <ImageDetails 
+                        <ImageDetails
                             imageDetails={imageDetails}
                             imageId={imageNo}
                             handleDetails={this.handleDetails}
