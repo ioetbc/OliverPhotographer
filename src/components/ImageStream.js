@@ -60,6 +60,7 @@ import Bricks from 'bricks.js'
               }
             };
 
+            window.addEventListener('load', lazyLoad);
             document.addEventListener("scroll", lazyLoad);
             window.addEventListener("resize", lazyLoad);
             window.addEventListener("orientationchange", lazyLoad);

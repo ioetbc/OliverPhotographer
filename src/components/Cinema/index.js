@@ -17,17 +17,22 @@ class CinemaMode extends Component {
     };
 
     handleKeyDown(event) {
+        const imageNo = this.state.currentImage || this.props.startingImage;
         console.log(event.code)
+        console.log('imageNo', imageNo)
+        console.log('this.props.imageDetails.length', this.props.imageDetails.length)
 
         switch(event.code) {
             case 'Escape':
             this.props.dismiss();
                 break;
-            case 'ArrowRight':
-                this.setState(() => ({ currentImage: this.state.currentImage + 1 }));
-                break;
-            case 'ArrowLeft':
-                this.setState(() => ({ currentImage: this.state.currentImage - 1 }));
+            // case 'ArrowRight':
+            // case imageNo + 1 < this.props.imageDetails.length:
+            //     this.setState(() => ({ currentImage: imageNo + 1 }));
+            //     break;
+            // case 'ArrowLeft':
+            // case imageNo > 0:
+            //     this.setState(() => ({ currentImage: imageNo - 1 }));
             default:
                 break;
         }
