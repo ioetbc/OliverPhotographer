@@ -29,7 +29,7 @@ import ButtonClose from './Utils/ButtonClose'
 
                     <form
                         style={{ display: 'flex', flexDirection: 'column' }}
-                        action="https://formspree.io/ioetbc@gmail.com"
+                        action="https://formspree.io/enquiry@oliverphotographer.co.uk"
                         method='POST'
                     >
                         <div className='text-field--container'>
