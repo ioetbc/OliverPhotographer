@@ -34,20 +34,26 @@ import ButtonClose from './Utils/ButtonClose'
                     >
                         <div className='text-field--container'>
                             <div className='text-field'>
-                                <input className='text-field--input' id="name" placeholder=' ' type='text' />
+                                <input className='text-field--input' name="Name" id="name" placeholder=' ' type='text' />
                                 <label className='text-field--label' for='name'>Name</label>
                             </div>
                         </div>
                         <div className='text-field--container'>
                             <div className='text-field'>
-                                <input className='text-field--input' id="email" placeholder=' ' type='text' />
+                                <input className='text-field--input' name="Email address" id="email" placeholder=' ' type='email' />
                                 <label className='text-field--label' for='email'>Email address</label>
                             </div>
                         </div>
                         <div className='text-field--container'>
                             <div className='text-field'>
-                                <input className='text-field--input' id="phone" placeholder=' ' type='number' />
+                                <input className='text-field--input' name="phone number" id="phone" placeholder=' ' type='number' />
                                 <label className='text-field--label' for='phone'>Phone number</label>
+                            </div>
+                        </div>
+                        <div className='text-field--container'>
+                            <div className='text-field'>
+                                <input className='text-field--input' name="Message" id="message" placeholder=' ' type='text' />
+                                <label className='text-field--label' for='message'>Message</label>
                             </div>
                         </div>
                         <button class="pure-material-button-contained">submit</button>
