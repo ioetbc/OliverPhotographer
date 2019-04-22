@@ -4,8 +4,7 @@ import { findIndex, uniq } from "lodash";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import ImageStream from "./components/ImageStream";
-import Lightbox from "./components/Lightbox";
-import CinemaMode from './components/Cinema/index.js';
+import CinemaMode from './components/Cinema.js';
 
 import 'normalize.css/normalize.css'
 import "./styles/styles.scss";
@@ -16,11 +15,12 @@ class App extends Component {
     this.state = {
       images: [],
       stickyNav: false,
-      lightbox: false,
       cinemaMode: false,
+      contact: false,
     };
     this.handleNavigation = this.handleNavigation.bind(this);
     this.handleSlideShow = this.handleSlideShow.bind(this);
+    this.handleContactScreen = this.handleContactScreen.bind(this);
   }
 
   componentDidMount() {
@@ -1252,39 +1252,46 @@ class App extends Component {
     })
   }
 
+  handleContactScreen() {
+    this.setState({
+        contact: !this.state.contact,
+    });
+  }
+
   render() {
     const {
       images,
       navItem,
       stickyNav,
       scrollTopBtn,
-      lightbox,
       index,
       url,
       cinemaMode,
       imageId,
+      contact,
     } = this.state;
+
     const imageClass = images.map(c => c.class);
     const uniqueClass = uniq(imageClass);
     const imagePath = images.map(p => p.optimized);
     const imageDetails = images.map(d => d.imageDetails);
-
     const desktopWidth = window.matchMedia('(min-width: 1000px)').matches;
 
     return (
       <React.Fragment>
-        <div style={{ display: lightbox ? "none" : "" }}>
           <Header />
           <div class="homepage-wrapper">
-          {desktopWidth &&
-            <Navigation
-            images={images}
-            uniqueClass={uniqueClass}
-            handleNavigation={this.handleNavigation}
-            navItem={navItem}
-            stickyNav={stickyNav}
-          />
-          }
+            {desktopWidth &&
+              <Navigation
+                images={images}
+                uniqueClass={uniqueClass}
+                handleNavigation={this.handleNavigation}
+                navItem={navItem}
+                stickyNav={stickyNav}
+                handleContactScreen={this.handleContactScreen}
+                contact={contact}
+              />
+            }
             <ImageStream
               images={images}
               imagePath={imagePath}
@@ -1292,11 +1299,9 @@ class App extends Component {
               navItem={navItem}
               scrollTopBtn={scrollTopBtn}
               handleSlideShow={this.handleSlideShow}
-              lightbox={lightbox}
               index={index}
               url={url}
             />
-          </div>
         </div>
         {cinemaMode && desktopWidth &&
           <CinemaMode

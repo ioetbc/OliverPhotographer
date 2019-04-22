@@ -1,42 +1,12 @@
 import React, { Component } from 'react';
 
-import ImageDetails from './imageDetails';
-
 class CinemaMode extends Component {
     constructor() {
         super();
-        this.state = {
-            showDetails: false,
-            hideRightChevon: false,
-            landscape: false,
-            currentImage: false,
-        }
-        this.handleDetails = this.handleDetails.bind(this);
+        this.state = { currentImage: false }
         this.handleNewImage = this.handleNewImage.bind(this);
         this.handleKeyDown = this.handleKeyDown.bind(this);
     };
-
-    handleKeyDown(event) {
-        const imageNo = this.state.currentImage || this.props.startingImage;
-        console.log(event.code)
-        console.log('imageNo', imageNo)
-        console.log('this.props.imageDetails.length', this.props.imageDetails.length)
-
-        switch(event.code) {
-            case 'Escape':
-            this.props.dismiss();
-                break;
-            // case 'ArrowRight':
-            // case imageNo + 1 < this.props.imageDetails.length:
-            //     this.setState(() => ({ currentImage: imageNo + 1 }));
-            //     break;
-            // case 'ArrowLeft':
-            // case imageNo > 0:
-            //     this.setState(() => ({ currentImage: imageNo - 1 }));
-            default:
-                break;
-        }
-    }
 
     componentDidMount() {
         document.addEventListener("keydown", this.handleKeyDown);
@@ -46,10 +16,10 @@ class CinemaMode extends Component {
         document.removeEventListener("keydown", this.handleKeyDown);
     }
 
-    handleDetails() {
-        this.setState({
-            showDetails: !this.state.showDetails,
-        })
+    handleKeyDown(event) {
+        if (event.code === 'Escape') {
+            this.props.dismiss();
+        }
     }
 
     handleNewImage(click, currentImage) {
@@ -62,7 +32,7 @@ class CinemaMode extends Component {
 
     render() {
         const { startingImage, imageDetails, dismiss, imagePath } = this.props;
-        const { showDetails, currentImage } = this.state;
+        const { currentImage } = this.state;
 
         const imageNo = currentImage || startingImage;
 
@@ -80,7 +50,7 @@ class CinemaMode extends Component {
                         <img
                             style={{ height: '85vh' }}
                             id={'cinemaImage' + startingImage}
-                            src={require(`../../images/optimized/${imagePath[imageNo]}`)}
+                            src={require(`../images/optimized/${imagePath[imageNo]}`)}
                         />
                         <div className="slide">
 
@@ -96,13 +66,6 @@ class CinemaMode extends Component {
                         </div>
                         <p style={{ position: 'absolute', left: 0, right: 0, color: '#3a3a3a', textAlign: 'center', marginTop: '10px' }}>{imageNo + 1}</p>
                     </div>
-                    {showDetails &&
-                        <ImageDetails
-                            imageDetails={imageDetails}
-                            imageId={imageNo}
-                            handleDetails={this.handleDetails}
-                        />
-                    }
                 </div>
             </React.Fragment>
         )
