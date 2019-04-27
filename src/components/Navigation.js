@@ -1,5 +1,4 @@
 import React from 'react';
-import Contact from './Contact'
 
 const Navigation = (props) => (
     <nav className="navigation">
@@ -17,16 +16,9 @@ const Navigation = (props) => (
                 </ul>
             </div>
             <div style={{ position: 'relative', display: 'flex', alignItems: 'center'}}>
-                <h2 className="shop" style={{ marginBottom: '0px' }}>Shop</h2>
-                <p className="tool-tip-coming-soon">Coming soon</p>
+                <h2 className="shop" onClick={props.handleShop} style={{ marginBottom: '0px' }}>Shop</h2>
             </div>
             <h2 style={{ cursor: 'pointer' }} onClick={props.handleContactScreen}>Contact</h2>
-            {props.contact && 
-                <Contact
-                    contact={props.contact}
-                    handleContactScreen={props.handleContactScreen}
-                />
-            }
         </div>
     </nav>
 )

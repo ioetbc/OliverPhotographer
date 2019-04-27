@@ -1,10 +1,7 @@
 
 
 .shop {
-    cursor: not-allowed;
-    &:hover + .tool-tip-coming-soon {
-        visibility: visible;
-    }
+    cursor: pointer;
 }
 
 .tool-tip-coming-soon {

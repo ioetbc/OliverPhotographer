@@ -4,7 +4,9 @@ import { findIndex, uniq } from "lodash";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import ImageStream from "./components/ImageStream";
-import CinemaMode from './components/Cinema.js';
+import CinemaMode from './components/Cinema';
+import Contact from './components/Contact'
+import Shop from './components/Shop'
 
 import 'normalize.css/normalize.css'
 import "./styles/styles.scss";
@@ -17,10 +19,12 @@ class App extends Component {
       stickyNav: false,
       cinemaMode: false,
       contact: false,
+      shop: false,
     };
     this.handleNavigation = this.handleNavigation.bind(this);
     this.handleSlideShow = this.handleSlideShow.bind(this);
     this.handleContactScreen = this.handleContactScreen.bind(this);
+    this.handleShop = this.handleShop.bind(this);
   }
 
   componentDidMount() {
@@ -1253,9 +1257,11 @@ class App extends Component {
   }
 
   handleContactScreen() {
-    this.setState({
-        contact: !this.state.contact,
-    });
+    this.setState({ contact: !this.state.contact });
+  }
+
+  handleShop() {
+    this.setState({ shop: !this.state.shop })
   }
 
   render() {
@@ -1269,6 +1275,7 @@ class App extends Component {
       cinemaMode,
       imageId,
       contact,
+      shop,
     } = this.state;
 
     const imageClass = images.map(c => c.class);
@@ -1289,7 +1296,7 @@ class App extends Component {
                 navItem={navItem}
                 stickyNav={stickyNav}
                 handleContactScreen={this.handleContactScreen}
-                contact={contact}
+                handleShop={this.handleShop}
               />
             }
             <ImageStream
@@ -1310,7 +1317,19 @@ class App extends Component {
               imageDetails={imageDetails}
               dismiss={this.handleSlideShow}
           />
-      }
+        }
+        {contact && 
+            <Contact
+                contact={contact}
+                handleContactScreen={this.handleContactScreen}
+            />
+        }
+        {shop && 
+            <Shop
+                contact={contact}
+                handleShop={this.handleShop}
+            />
+        }
       </React.Fragment>
     );
   }
