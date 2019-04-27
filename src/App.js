@@ -5,8 +5,9 @@ import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import ImageStream from "./components/ImageStream";
 import CinemaMode from './components/Cinema';
-import Contact from './components/Contact'
-import Shop from './components/Shop'
+import Contact from './components/Contact';
+import About from './components/About';
+import Shop from './components/Shop';
 
 import 'normalize.css/normalize.css'
 import "./styles/styles.scss";
@@ -19,11 +20,13 @@ class App extends Component {
       stickyNav: false,
       cinemaMode: false,
       contact: false,
+      about: false,
       shop: false,
     };
     this.handleNavigation = this.handleNavigation.bind(this);
     this.handleSlideShow = this.handleSlideShow.bind(this);
     this.handleContactScreen = this.handleContactScreen.bind(this);
+    this.handleAboutScreen = this.handleAboutScreen.bind(this);
     this.handleShop = this.handleShop.bind(this);
   }
 
@@ -1260,6 +1263,10 @@ class App extends Component {
     this.setState({ contact: !this.state.contact });
   }
 
+  handleAboutScreen() {
+    this.setState({ about: !this.state.about });
+  }
+
   handleShop() {
     this.setState({ shop: !this.state.shop })
   }
@@ -1276,6 +1283,7 @@ class App extends Component {
       imageId,
       contact,
       shop,
+      about
     } = this.state;
 
     const imageClass = images.map(c => c.class);
@@ -1296,6 +1304,7 @@ class App extends Component {
                 navItem={navItem}
                 stickyNav={stickyNav}
                 handleContactScreen={this.handleContactScreen}
+                handleAboutScreen={this.handleAboutScreen}
                 handleShop={this.handleShop}
               />
             }
@@ -1323,6 +1332,11 @@ class App extends Component {
                 contact={contact}
                 handleContactScreen={this.handleContactScreen}
             />
+        }
+        {about &&
+          <About
+            handleAboutScreen={this.handleAboutScreen}
+          />
         }
         {shop && 
             <Shop

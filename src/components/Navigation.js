@@ -15,10 +15,11 @@ const Navigation = (props) => (
                     )}
                 </ul>
             </div>
-            <div style={{ position: 'relative', display: 'flex', alignItems: 'center'}}>
-                <h2 className="shop" onClick={props.handleShop} style={{ marginBottom: '0px' }}>Shop</h2>
-            </div>
+            <h2 style={{ cursor: 'pointer' }} onClick={props.handleAboutScreen}>About</h2>
             <h2 style={{ cursor: 'pointer' }} onClick={props.handleContactScreen}>Contact</h2>
+            <div style={{ position: 'relative', display: 'flex', alignItems: 'center'}}>
+                <h2 className="shop" onClick={props.handleShop} style={{ margin: '0px' }}>Shop</h2>
+            </div>
         </div>
     </nav>
 )
