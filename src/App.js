@@ -39,14 +39,6 @@ class App extends Component {
           height: "525px",
           id: 1,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/2.jpg",
@@ -54,14 +46,6 @@ class App extends Component {
           height: "525px",
           id: 2,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/3.jpg",
@@ -69,14 +53,6 @@ class App extends Component {
           height: "233px",
           id: 3,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "london/4.jpg",
@@ -84,14 +60,6 @@ class App extends Component {
           height: "525px",
           id: 4,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/5.jpg",
@@ -99,14 +67,6 @@ class App extends Component {
           height: "525px",
           id: 5,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/6.jpg",
@@ -114,14 +74,6 @@ class App extends Component {
           height: "525px",
           id: 6,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/7.jpg",
@@ -129,14 +81,6 @@ class App extends Component {
           height: "525px",
           id: 7,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/8.jpg",
@@ -144,14 +88,6 @@ class App extends Component {
           height: "525px",
           id: 8,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/9.jpg",
@@ -159,14 +95,6 @@ class App extends Component {
           height: "233px",
           id: 9,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "london/10.jpg",
@@ -174,14 +102,6 @@ class App extends Component {
           height: "525px",
           id: 10,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/11.jpg",
@@ -189,14 +109,6 @@ class App extends Component {
           height: "233px",
           id: 11,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "london/12.jpg",
@@ -204,14 +116,6 @@ class App extends Component {
           height: "525px",
           id: 12,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/13.jpg",
@@ -219,14 +123,6 @@ class App extends Component {
           height: "525px",
           id: 13,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/14.jpg",
@@ -234,14 +130,6 @@ class App extends Component {
           height: "525px",
           id: 14,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/15.jpg",
@@ -249,14 +137,6 @@ class App extends Component {
           height: "525px",
           id: 15,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/16.jpg",
@@ -264,14 +144,6 @@ class App extends Component {
           height: "525px",
           id: 16,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/17.jpg",
@@ -279,14 +151,6 @@ class App extends Component {
           height: "525px",
           id: 17,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/18.jpg",
@@ -294,14 +158,6 @@ class App extends Component {
           height: "525px",
           id: 18,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/19.jpg",
@@ -309,14 +165,6 @@ class App extends Component {
           height: "525px",
           id: 19,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/20.jpg",
@@ -324,14 +172,6 @@ class App extends Component {
           height: "525px",
           id: 20,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/21.jpg",
@@ -339,14 +179,6 @@ class App extends Component {
           height: "525px",
           id: 21,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/22.jpg",
@@ -354,14 +186,6 @@ class App extends Component {
           height: "525px",
           id: 22,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/23.jpg",
@@ -369,14 +193,6 @@ class App extends Component {
           height: "525px",
           id: 23,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/24.jpg",
@@ -384,14 +200,6 @@ class App extends Component {
           height: "525px",
           id: 24,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/25.jpg",
@@ -399,14 +207,6 @@ class App extends Component {
           height: "525px",
           id: 25,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/26.jpg",
@@ -414,14 +214,6 @@ class App extends Component {
           height: "525px",
           id: 26,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/27.jpg",
@@ -429,14 +221,6 @@ class App extends Component {
           height: "525px",
           id: 27,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/28.jpg",
@@ -444,14 +228,6 @@ class App extends Component {
           height: "233px",
           id: 28,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "london/29.jpg",
@@ -459,14 +235,6 @@ class App extends Component {
           height: "525px",
           id: 29,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/30.jpg",
@@ -474,14 +242,6 @@ class App extends Component {
           height: "525px",
           id: 30,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/31.jpg",
@@ -489,14 +249,6 @@ class App extends Component {
           height: "525px",
           id: 31,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/32.jpg",
@@ -504,14 +256,6 @@ class App extends Component {
           height: "525px",
           id: 32,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/33.jpg",
@@ -519,14 +263,6 @@ class App extends Component {
           height: "233px",
           id: 33,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "london/34.jpg",
@@ -534,14 +270,6 @@ class App extends Component {
           height: "525px",
           id: 34,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/35.jpg",
@@ -549,14 +277,6 @@ class App extends Component {
           height: "525px",
           id: 35,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/36.jpg",
@@ -564,14 +284,6 @@ class App extends Component {
           height: "525px",
           id: 36,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/37.jpg",
@@ -579,14 +291,6 @@ class App extends Component {
           height: "525px",
           id: 37,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/38.jpg",
@@ -594,14 +298,6 @@ class App extends Component {
           height: "525px",
           id: 38,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/39.jpg",
@@ -609,14 +305,6 @@ class App extends Component {
           height: "525px",
           id: 39,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "london/40.jpg",
@@ -624,14 +312,6 @@ class App extends Component {
           height: "525px",
           id: 40,
           class: "london",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/1.jpg",
@@ -639,14 +319,6 @@ class App extends Component {
           height: "525px",
           id: 41,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/2.jpg",
@@ -654,14 +326,6 @@ class App extends Component {
           height: "525px",
           id: 42,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/3.jpg",
@@ -669,14 +333,6 @@ class App extends Component {
           height: "525px",
           id: 43,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/4.jpg",
@@ -684,14 +340,6 @@ class App extends Component {
           height: "525px",
           id: 44,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/5.jpg",
@@ -699,14 +347,6 @@ class App extends Component {
           height: "525px",
           id: 45,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/6.jpg",
@@ -714,14 +354,6 @@ class App extends Component {
           height: "525px",
           id: 46,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/7.jpg",
@@ -729,14 +361,6 @@ class App extends Component {
           height: "525px",
           id: 47,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/8.jpg",
@@ -744,14 +368,6 @@ class App extends Component {
           height: "525px",
           id: 48,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/9.jpg",
@@ -759,14 +375,6 @@ class App extends Component {
           height: "525px",
           id: 49,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/10.jpg",
@@ -774,14 +382,6 @@ class App extends Component {
           height: "525px",
           id: 50,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/11.jpg",
@@ -789,14 +389,6 @@ class App extends Component {
           height: "525px",
           id: 51,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/12.jpg",
@@ -804,14 +396,6 @@ class App extends Component {
           height: "525px",
           id: 52,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/13.jpg",
@@ -819,14 +403,6 @@ class App extends Component {
           height: "525px",
           id: 53,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "winchester/14.jpg",
@@ -834,14 +410,6 @@ class App extends Component {
           height: "525px",
           id: 54,
           class: "winchester",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "new-york/1.jpg",
@@ -849,14 +417,6 @@ class App extends Component {
           height: "233px",
           id: 55,
           class: "new york",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "new-york/2.jpg",
@@ -864,14 +424,6 @@ class App extends Component {
           height: "525px",
           id: 56,
           class: "new york",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "new-york/3.jpg",
@@ -879,14 +431,6 @@ class App extends Component {
           height: "233px",
           id: 57,
           class: "new york",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "paris/1.jpg",
@@ -894,14 +438,6 @@ class App extends Component {
           height: "525px",
           id: 58,
           class: "paris",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "paris/2.jpg",
@@ -909,14 +445,6 @@ class App extends Component {
           height: "525px",
           id: 59,
           class: "paris",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "paris/3.jpg",
@@ -924,14 +452,6 @@ class App extends Component {
           height: "525px",
           id: 60,
           class: "paris",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "paris/4.jpg",
@@ -939,14 +459,6 @@ class App extends Component {
           height: "525px",
           id: 61,
           class: "paris",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "oslo/1.jpg",
@@ -954,14 +466,6 @@ class App extends Component {
           height: "233px",
           id: 62,
           class: "oslo",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "oslo/2.jpg",
@@ -969,14 +473,6 @@ class App extends Component {
           height: "233px",
           id: 63,
           class: "oslo",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "nature/1.jpg",
@@ -984,14 +480,6 @@ class App extends Component {
           height: "525px",
           id: 64,
           class: "nature",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "nature/2.jpg",
@@ -999,14 +487,6 @@ class App extends Component {
           height: "525px",
           id: 65,
           class: "nature",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "nature/3.jpg",
@@ -1014,14 +494,6 @@ class App extends Component {
           height: "525px",
           id: 66,
           class: "nature",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "nature/4.jpg",
@@ -1029,14 +501,6 @@ class App extends Component {
           height: "525px",
           id: 67,
           class: "nature",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "nature/5.jpg",
@@ -1044,14 +508,6 @@ class App extends Component {
           height: "525px",
           id: 68,
           class: "nature",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "nature/6.jpg",
@@ -1059,14 +515,6 @@ class App extends Component {
           height: "525px",
           id: 69,
           class: "nature",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "snowden/1.jpg",
@@ -1074,14 +522,6 @@ class App extends Component {
           height: "525px",
           id: 70,
           class: "snowden",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "snowden/2.jpg",
@@ -1089,14 +529,6 @@ class App extends Component {
           height: "525px",
           id: 71,
           class: "snowden",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "snowden/3.jpg",
@@ -1104,14 +536,6 @@ class App extends Component {
           height: "525px",
           id: 72,
           class: "snowden",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "snowden/4.jpg",
@@ -1119,14 +543,6 @@ class App extends Component {
           height: "233px",
           id: 73,
           class: "snowden",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "falmouth/1.jpg",
@@ -1134,14 +550,6 @@ class App extends Component {
           height: "525px",
           id: 74,
           class: "falmouth",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "falmouth/2.jpg",
@@ -1149,14 +557,6 @@ class App extends Component {
           height: "525px",
           id: 75,
           class: "falmouth",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "falmouth/3.jpg",
@@ -1164,14 +564,6 @@ class App extends Component {
           height: "525px",
           id: 76,
           class: "falmouth",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "portrait"
-          }
         },
         {
           optimized: "falmouth/4.jpg",
@@ -1179,14 +571,6 @@ class App extends Component {
           height: "233px",
           id: 77,
           class: "falmouth",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "falmouth/5.jpg",
@@ -1194,14 +578,6 @@ class App extends Component {
           height: "233px",
           id: 78,
           class: "falmouth",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         },
         {
           optimized: "falmouth/6.jpg",
@@ -1209,14 +585,6 @@ class App extends Component {
           height: "233px",
           id: 79,
           class: "falmouth",
-          imageDetails: {
-            title: "The image title",
-            desc:
-              "It is a long established fact that a reader will be distracted by the readable content of layout.",
-            iso: "800 / 200",
-            cost: "£15",
-            type: "landscape"
-          }
         }
       ]
     });
