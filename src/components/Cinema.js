@@ -49,16 +49,13 @@ class CinemaMode extends Component {
                     <div style={{ position: 'relative' }}>
                         <img
                             style={{ height: '85vh' }}
-                            id={'cinemaImage' + startingImage}
                             src={require(`../images/optimized/${imagePath[imageNo]}`)}
                         />
                         <div className="slide">
-
                             <div
                                 className={imageNo > 0 && 'left'}
                                 onClick={() => this.handleNewImage('left', imageNo)}
                             />
-
                             <div
                                 className={imageNo + 1 < imageDetails.length && 'right'}
                                 onClick={() => this.handleNewImage('right', imageNo)}
