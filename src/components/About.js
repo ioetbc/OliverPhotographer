@@ -18,7 +18,6 @@ const About = (props) => (
                 <h2>Oliver Cole</h2>
                 <p className="about__description">
                     Oliver Cole is a Winchester based photographer whose work incorporates themes of colour, minimalism, shape and light.
-                    Oliver Cole is a Winchester based photographer whose work incorporates.
                 </p>
             </div>
         </div>
