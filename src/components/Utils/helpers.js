@@ -1,14 +1,11 @@
 import Bricks from 'bricks.js';
 
 export function lazyLoad() {
-    document.addEventListener("DOMContentLoaded", function() {
         let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
         let active = false;
-
         const lazyLoad = function() {
           if (active === false) {
             active = true;
-
             setTimeout(function() {
               lazyImages.forEach(function(lazyImage) {
                 if ((lazyImage.getBoundingClientRect().top <= window.innerHeight && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
@@ -37,7 +34,7 @@ export function lazyLoad() {
         document.addEventListener("scroll", lazyLoad);
         window.addEventListener("resize", lazyLoad);
         window.addEventListener("orientationchange", lazyLoad);
-    });
+    
 }
 
 export function loadBricks() {
