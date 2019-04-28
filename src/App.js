@@ -33,7 +33,7 @@ class App extends Component {
 
 	componentDidMount() {
 		db.collection('change').get().then((snapshot) => {
-			this.setState({ images: snapshot.docs })
+			this.setState({ images: snapshot.docs });
 		});
 
 		window.addEventListener("scroll", () => {
@@ -49,7 +49,8 @@ class App extends Component {
 
 	handleNavigation(itemClass) {
 		const { images } = this.state;
-		const allClasses = images.map(image => image.data().class);
+		const sortedImages = images.map(s => s.data()).sort((l, h) => l.id - h.id);
+		const allClasses = sortedImages.map(image => image.class);
 		const classIndex = findIndex(
 			allClasses,
 			imageClass => imageClass === itemClass
@@ -102,13 +103,15 @@ class App extends Component {
 		let imageClass;
 		let imagePath;
 		let imageDetails;
-		
+		let sortedImages;
+
 		if (images) {
-			imageClass = images.map(c => c.data().class);
-			imagePath = images.map(p => p.data().optimized);
-			imageDetails = images.map(d => d.data().imageDetails);
+			sortedImages = images.map(s => s.data()).sort((l, h) => l.id - h.id);
+			imageClass = sortedImages.map(c => c.class);
+			imagePath = sortedImages.map(p => p.optimized);
+			imageDetails = sortedImages.map(d => d.imageDetails);
 		}
-		
+
 		const desktopWidth = window.matchMedia('(min-width: 1000px)').matches;
 		const uniqueClass = uniq(imageClass);
 
@@ -118,7 +121,7 @@ class App extends Component {
 				<div class="homepage-wrapper">
 					{desktopWidth &&
 						<Navigation
-							images={images}
+							images={sortedImages}
 							uniqueClass={uniqueClass}
 							handleNavigation={this.handleNavigation}
 							navItem={navItem}
@@ -130,7 +133,7 @@ class App extends Component {
 					}
 					{images &&
 						<ImageStream
-							images={images}
+							images={sortedImages}
 							imagePath={imagePath}
 							uniqueClass={uniqueClass}
 							navItem={navItem}

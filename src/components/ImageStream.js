@@ -17,11 +17,11 @@ class ImageStream extends Component {
                 <img
                     id={'image-stream-' + i}
                     className="lazy grid-item"
-                    style={{ height: image.data().height, cursor: 'pointer' }}
-                    onClick={() => handleSlideShow(i, image.data().optimized)}
-                    src={require(`../images/placeholder/${image.data().placeholder}`)}
-                    data-src={require(`../images/optimized/${image.data().optimized}`)}
-                    data-srcset={require(`../images/optimized/${image.data().optimized}`)}
+                    style={{ height: image.height, cursor: 'pointer' }}
+                    onClick={() => handleSlideShow(i, image.optimized)}
+                    src={require(`../images/placeholder/${image.placeholder}`)}
+                    data-src={require(`../images/optimized/${image.optimized}`)}
+                    data-srcset={require(`../images/optimized/${image.optimized}`)}
                 />
             ))}
         </div>
