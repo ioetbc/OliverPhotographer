@@ -32,7 +32,7 @@ class App extends Component {
   	}
 
 	componentDidMount() {
-		db.collection('change').get().then((snapshot) => {
+		db.collection('oliverdiscographer').get().then((snapshot) => {
 			this.setState({ images: snapshot.docs });
 		});
 
@@ -49,7 +49,7 @@ class App extends Component {
 
 	handleNavigation(itemClass) {
 		const { images } = this.state;
-		const sortedImages = images.map(s => s.data()).sort((l, h) => l.id - h.id);
+		const sortedImages = images.map(s => s.data()).sort((l, h) => h.id - l.id);
 		const allClasses = sortedImages.map(image => image.class);
 		const classIndex = findIndex(
 			allClasses,
@@ -103,13 +103,16 @@ class App extends Component {
 		let imageClass;
 		let imagePath;
 		let imageDetails;
-		let sortedImages;
+		let sortedImages = false;
 
 		if (images) {
-			sortedImages = images.map(s => s.data()).sort((l, h) => l.id - h.id);
+			sortedImages = images.map(s => s.data()).sort((l, h) => h.id - l.id);
+		}
+
+		if (sortedImages) {
 			imageClass = sortedImages.map(c => c.class);
 			imagePath = sortedImages.map(p => p.optimized);
-			imageDetails = sortedImages.map(d => d.imageDetails);
+			imageDetails = sortedImages.map(d => d.imageDetails);	
 		}
 
 		const desktopWidth = window.matchMedia('(min-width: 1000px)').matches;
@@ -131,7 +134,7 @@ class App extends Component {
 							handleShop={this.handleShop}
 						/>
 					}
-					{images &&
+					{sortedImages &&
 						<ImageStream
 							images={sortedImages}
 							imagePath={imagePath}
