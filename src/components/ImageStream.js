@@ -10,7 +10,7 @@ class ImageStream extends Component {
     render() {
         const { images, handleSlideShow } = this.props;
         return (
-            <div className="grid" data-grid style={{ position: 'relative', width: '1100px', height: '13399px' }}>
+            <div className="grid" data-grid>
                 {images.map((image, i) => (
                     <img
                         id={'image-stream-' + i}
