@@ -47,7 +47,7 @@ export function loadBricks() {
   });
   setTimeout(function() {
 		bricks.pack();
-  }, 200)
+  }, 600)
   window.addEventListener('scroll', function() {
       bricks.pack();
   });
