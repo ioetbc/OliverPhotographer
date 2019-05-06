@@ -33,10 +33,9 @@ class App extends Component {
 
 	componentDidMount() {
 		db.collection('oliverdiscographer').get().then((snapshot) => {
-			this.setState({ images: snapshot.docs });
-		});
-
-		window.addEventListener("scroll", () => {
+			this.setState({ images: snapshot.docs })
+    })
+    window.addEventListener("scroll", () => {
 			const headerHeight = document.getElementById("header").clientHeight;
 			window.pageYOffset > headerHeight
 			? this.setState({ stickyNav: true })
