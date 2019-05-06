@@ -49,7 +49,7 @@ class CinemaMode extends Component {
                     <div style={{ position: 'relative' }}>
                         <img
                             style={{ height: '85vh' }}
-                            src={require(`../images/optimized/${imagePath[imageNo]}`)}
+                            src={imagePath[imageNo]}
                         />
                         <div className="slide">
                             <div
