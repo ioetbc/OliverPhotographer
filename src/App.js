@@ -34,6 +34,12 @@ class App extends Component {
     this.setState({
       images: [
         {
+          optimized: "winchester/cathederal1.jpg",
+          placeholder: "winchester/cathederal1.svg",
+		  height: "233px",          
+		  class: "london",
+        },
+        {
           optimized: "london/1.jpg",
           placeholder: "london/1.svg",
 		  height: "525px",          
