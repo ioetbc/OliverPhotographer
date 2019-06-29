@@ -754,9 +754,6 @@
 				window.pageYOffset > headerHeight
 				? this.setState({ stickyNav: true })
 				: this.setState({ stickyNav: false });
-				window.pageYOffset > window.innerHeight
-				? this.setState({ scrollTopBtn: true })
-				: this.setState({ scrollTopBtn: false });
 			});
 		}
 
@@ -804,7 +801,6 @@
 				images,
 				navItem,
 				stickyNav,
-				scrollTopBtn,
 				index,
 				url,
 				cinemaMode,
@@ -843,7 +839,6 @@
 							imagePath={imagePath}
 							uniqueClass={uniqueClass}
 							navItem={navItem}
-							scrollTopBtn={scrollTopBtn}
 							handleSlideShow={this.handleSlideShow}
 							index={index}
 							url={url}
