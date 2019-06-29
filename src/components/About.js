@@ -11,9 +11,7 @@ const About = (props) => (
     >
         <div className="button-close" onClick={props.handleAboutScreen}></div> {/* TODO make this a component */}
         <div className="about">
-            <div>
-                <img className="about__image" src={require(`../images/misc/about-portrait.jpg`)} />
-            </div>
+            <img className="about__image" src={require(`../images/misc/about-portrait.jpg`)} />
             <div className="about__content">
                 <h2>Oliver Cole</h2>
                 <p className="about__description">

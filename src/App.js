@@ -824,16 +824,16 @@
 				<React.Fragment>
 					<Header />
 					<div class="homepage-wrapper">
-						{desktopWidth &&
-							<Navigation
-								stickyNav={stickyNav}
-								handleContactScreen={this.handleContactScreen}
-								handleAboutScreen={this.handleAboutScreen}
-								handleShop={this.handleShop}
-								pushObjHeading={pushObjHeading}
-								handleNavigation={this.handleNavigation}
-							/>
-						}
+						<Navigation
+							stickyNav={stickyNav}
+							handleContactScreen={this.handleContactScreen}
+							handleAboutScreen={this.handleAboutScreen}
+							handleShop={this.handleShop}
+							pushObjHeading={pushObjHeading}
+							handleNavigation={this.handleNavigation}
+							desktopWidth={desktopWidth}
+						/>
+
 						<ImageStream
 							images={images}
 							imagePath={imagePath}

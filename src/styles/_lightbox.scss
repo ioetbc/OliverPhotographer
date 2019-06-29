@@ -6,6 +6,9 @@
     height: 100vh;
     background: white;
     z-index: 1;
+    @media screen and (max-width: 1000px) {
+        overflow-y: scroll;
+    }
 }
 
 .horizontal-layout-alignment {
