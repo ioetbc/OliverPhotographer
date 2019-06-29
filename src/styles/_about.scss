@@ -1,5 +1,6 @@
 .about {
-    margin-top: 20vh;
+    margin-top: 30vh;
+    width: 83%;
     @media screen and (min-width: '1000px') {
         margin-top: 0;
         display: flex;
@@ -7,7 +8,8 @@
         width: 70%;
     }
     &__image {
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
         @media screen and (min-width: '1000px') {
             width: auto;
             height: 70vh;
