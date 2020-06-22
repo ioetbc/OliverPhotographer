@@ -34,11 +34,83 @@
 			this.setState({
 				images: [
 					{
+						optimized: "lifestyle/bike.jpg",
+						placeholder: "lifestyle/bike.svg",
+						height: "233px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
+						optimized: "lifestyle/glasses2.jpg",
+						placeholder: "lifestyle/glasses2.svg",
+						height: "525px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
+						optimized: "lifestyle/glasses.jpg",
+						placeholder: "lifestyle/glasses.svg",
+						height: "233px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
+						optimized: "lifestyle/watch.jpg",
+						placeholder: "lifestyle/watch.svg",
+						height: "525px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
+						optimized: "lifestyle/watch2.jpg",
+						placeholder: "lifestyle/watch2.svg",
+						height: "525px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
+						optimized: "lifestyle/desk.jpg",
+						placeholder: "lifestyle/desk.svg",
+						height: "233px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
+						optimized: "lifestyle/coffee.jpg",
+						placeholder: "lifestyle/coffee.svg",
+						height: "525px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
+						optimized: "lifestyle/knife.jpg",
+						placeholder: "lifestyle/knife.svg",
+						height: "525px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
 						optimized: "ape/1.jpg",
 						placeholder: "ape/1.svg",
 						height: "525px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -47,7 +119,7 @@
 						placeholder: "ape/2.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -56,7 +128,7 @@
 						placeholder: "ape/3.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -65,7 +137,7 @@
 						placeholder: "ape/7.svg",
 						height: "525px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -74,7 +146,7 @@
 						placeholder: "ape/8.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -83,7 +155,7 @@
 						placeholder: "ape/9.svg",
 						height: "525px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -92,7 +164,7 @@
 						placeholder: "ape/4.svg",
 						height: "525px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -101,7 +173,7 @@
 						placeholder: "ape/5.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -110,7 +182,7 @@
 						placeholder: "ape/6.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -119,7 +191,7 @@
 						placeholder: "ape/10.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -128,7 +200,7 @@
 						placeholder: "ape/11.svg",
 						height: "525px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -137,7 +209,7 @@
 						placeholder: "ape/12.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -146,7 +218,7 @@
 						placeholder: "ape/13.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'all points east 2019',
 							}
 					},
@@ -155,7 +227,7 @@
 						placeholder: "winchestival/winchestival-2.svg",
 						height: "525px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'Winchestival',
 							}
 					},
@@ -164,7 +236,7 @@
 						placeholder: "winchestival/winchestival-3.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'Winchestival',
 							}
 					},
@@ -173,7 +245,7 @@
 						placeholder: "winchestival/winchestival-5.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'Winchestival',
 							}
 					},
@@ -182,7 +254,7 @@
 						placeholder: "winchestival/winchestival-4.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'Winchestival',
 							}
 					},
@@ -191,7 +263,7 @@
 						placeholder: "winchestival/winchestival-1.svg",
 						height: "233px",          
 							subNav: {
-								subheading: 'Festivals',
+								subheading: 'festival',
 								anchor: 'Winchestival',
 							}
 					},
