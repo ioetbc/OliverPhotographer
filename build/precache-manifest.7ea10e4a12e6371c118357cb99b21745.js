@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "834e4ddf7bb796d54feed58c5670f219",
-    "url": "/static/media/winchester-5.834e4ddf.svg"
+    "revision": "882fff1a51a47b979f33",
+    "url": "/static/css/main.da1a001f.chunk.css"
   },
   {
-    "revision": "75d3835d6e3e320d9203",
-    "url": "/static/css/main.65a04e81.chunk.css"
+    "revision": "882fff1a51a47b979f33",
+    "url": "/static/js/main.456e1d22.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "0cfdf58a0413dcb0ea8bd449dda3da50",
-    "url": "/static/media/chevron.0cfdf58a.svg"
+    "revision": "df89588a2986b13cce5e",
+    "url": "/static/css/2.2a941e69.chunk.css"
   },
   {
-    "revision": "8e9dd6fc869af7a38481",
-    "url": "/static/js/2.d0d62c64.chunk.js"
+    "revision": "df89588a2986b13cce5e",
+    "url": "/static/js/2.19c3c157.chunk.js"
   },
   {
     "revision": "a249193141ef49cee723176a6f4ba066",
@@ -186,6 +186,46 @@ self.__precacheManifest = [
   {
     "revision": "02de9b2957d88d55b860d29238760fa5",
     "url": "/static/media/funchal-9.02de9b29.svg"
+  },
+  {
+    "revision": "ae6a06f8f112193535ee2c9863216e38",
+    "url": "/static/media/bike.ae6a06f8.svg"
+  },
+  {
+    "revision": "0568b1eede0c2cd2c3d151869691cd02",
+    "url": "/static/media/coffee.0568b1ee.svg"
+  },
+  {
+    "revision": "3fc240bf82703563db3209be6bc5273d",
+    "url": "/static/media/cup1.3fc240bf.svg"
+  },
+  {
+    "revision": "b3c1eaaa8a8903db92563c38d71fcf4a",
+    "url": "/static/media/cup2.b3c1eaaa.svg"
+  },
+  {
+    "revision": "e3050870c6bc126960786d70d164f7c5",
+    "url": "/static/media/desk.e3050870.svg"
+  },
+  {
+    "revision": "8d4f8fa97e83993487beb70b5efa7efb",
+    "url": "/static/media/glasses.8d4f8fa9.svg"
+  },
+  {
+    "revision": "52451fc01649c1cfd24a97dd452c906f",
+    "url": "/static/media/glasses2.52451fc0.svg"
+  },
+  {
+    "revision": "2f41af4a7ace5e7ae336c2c683137be0",
+    "url": "/static/media/knife.2f41af4a.svg"
+  },
+  {
+    "revision": "dbabb54762312521b212c43e4145658b",
+    "url": "/static/media/watch.dbabb547.svg"
+  },
+  {
+    "revision": "838bfc177aa79f1079d30260ef767873",
+    "url": "/static/media/watch2.838bfc17.svg"
   },
   {
     "revision": "7f5a19b1004d27d7b170afeaaad64ddf",
@@ -888,8 +928,8 @@ self.__precacheManifest = [
     "url": "/static/media/winchester-4.08ad79e4.svg"
   },
   {
-    "revision": "75d3835d6e3e320d9203",
-    "url": "/static/js/main.033f72a1.chunk.js"
+    "revision": "834e4ddf7bb796d54feed58c5670f219",
+    "url": "/static/media/winchester-5.834e4ddf.svg"
   },
   {
     "revision": "254a09b26bbdee194b8481ad6a10f2f8",
@@ -1094,6 +1134,46 @@ self.__precacheManifest = [
   {
     "revision": "10c79d95a3629261b352f811490ce2d5",
     "url": "/static/media/funchal-9.10c79d95.jpg"
+  },
+  {
+    "revision": "596200f56e7086d27e8cbdcc7b54697e",
+    "url": "/static/media/bike.596200f5.jpg"
+  },
+  {
+    "revision": "7edbb5eea8cc9e00ebb4a74639622f66",
+    "url": "/static/media/coffee.7edbb5ee.jpg"
+  },
+  {
+    "revision": "dafb8ba72b94081c957c61165464c80d",
+    "url": "/static/media/cup1.dafb8ba7.jpg"
+  },
+  {
+    "revision": "4a1fa56125116676b5b2532aec879d0c",
+    "url": "/static/media/cup2.4a1fa561.jpg"
+  },
+  {
+    "revision": "f85bd059d8ea51bf1334f01363f9a767",
+    "url": "/static/media/desk.f85bd059.jpg"
+  },
+  {
+    "revision": "2f4da4ee7794600adbb1c9b6fe46f485",
+    "url": "/static/media/glasses.2f4da4ee.jpg"
+  },
+  {
+    "revision": "9dbd292b561a030f82238785e46f1c3f",
+    "url": "/static/media/glasses2.9dbd292b.jpg"
+  },
+  {
+    "revision": "ac4715f76c9a2b723d3890f8e0e15164",
+    "url": "/static/media/knife.ac4715f7.jpg"
+  },
+  {
+    "revision": "b8763b80de467d15099c2bcb053bf3b5",
+    "url": "/static/media/watch.b8763b80.jpg"
+  },
+  {
+    "revision": "2b064ad64b45f20fa5febe799fc7a90a",
+    "url": "/static/media/watch2.2b064ad6.jpg"
   },
   {
     "revision": "2b8bbee1bde83e999d6d824d74fe8f7c",
@@ -1768,11 +1848,11 @@ self.__precacheManifest = [
     "url": "/static/media/about-portrait.9fb07c51.jpg"
   },
   {
-    "revision": "8e9dd6fc869af7a38481",
-    "url": "/static/css/2.79e766c4.chunk.css"
+    "revision": "0cfdf58a0413dcb0ea8bd449dda3da50",
+    "url": "/static/media/chevron.0cfdf58a.svg"
   },
   {
-    "revision": "e70f0d40ba04dcf4fcff9e7b2af09523",
+    "revision": "7c696b6a666bcd71a91d14cd892ac41b",
     "url": "/index.html"
   }
 ];

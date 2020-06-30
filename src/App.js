@@ -34,6 +34,24 @@
 			this.setState({
 				images: [
 					{
+						optimized: "lifestyle/cup1.jpg",
+						placeholder: "lifestyle/cup1.svg",
+						height: "525px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
+						optimized: "lifestyle/cup2.jpg",
+						placeholder: "lifestyle/cup2.svg",
+						height: "525px",          
+							subNav: {
+								subheading: 'Lifestyle',
+								anchor: 'product',
+							}
+					},
+					{
 						optimized: "lifestyle/bike.jpg",
 						placeholder: "lifestyle/bike.svg",
 						height: "233px",          
