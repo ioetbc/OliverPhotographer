@@ -97,8 +97,8 @@
 							}
 					},
 					{
-						optimized: "lifestyle/coffee.jpg",
-						placeholder: "lifestyle/coffee.svg",
+						optimized: "lifestyle/coffeeupdate.jpg",
+						placeholder: "lifestyle/coffeeupdate.svg",
 						height: "525px",          
 							subNav: {
 								subheading: 'Lifestyle',
