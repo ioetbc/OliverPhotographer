@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bricks.js": "^1.8.0",
-    "firebase-tools": "^7.2.1",
+    "firebase-tools": "^11.29.1",
     "lodash": "^4.17.11",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
